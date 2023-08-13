@@ -5,7 +5,7 @@ Forwards chat messages from the game, on a discord channel. Need to have chat lo
 
 Edit before use:  
 
-globdir - The directory that contains chatlogs  
-token - your discord bot token  
-notifications_chan_id - Channel to forward the chat  
+chatlogs_dir - The directory that contains chatlogs. Default is for linux/proton version.  
+discord_token - your discord bot token(https://discord.com/developers/applications)  
+notifications_chan_id - Discord channel to forward the chat  
 chankeyword - Name of the channel, default is Local chat.  
