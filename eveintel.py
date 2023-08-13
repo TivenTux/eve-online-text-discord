@@ -14,6 +14,9 @@ chankeyword = 'Local'
 
 #initiate discord vars
 client = discord.Client()
+###intents api update. if you use the reworked discord api and intents in your bot, uncomment the next 2 lines.
+#intents = discord.Intents().all()
+#client = discord.Client(prefix='', intents=intents)
 
 #when bot gets ready, start the loop
 @client.event
