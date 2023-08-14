@@ -10,7 +10,7 @@ default_linux_dir = '/home/user/.steam/steam/steamapps/compatdata/8500/pfx/drive
 chatlogs_dir = default_linux_dir
 #discord token - check here: https://discord.com/developers/applications
 #discord_token = os.environ['discord_token']
-discord_token = os.environ['discord_token']
+discord_token = 'yyyyyyyyyyyy'
 #Channel id to forward chat to. On discord, right click channel, Copy ID.
 #notifications_chan_id = os.environ['notifications_chan_id']
 notifications_chan_id = 9999999999999999
