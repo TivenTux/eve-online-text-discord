@@ -2,8 +2,7 @@
 
 Forwards chat messages from the game, on a discord channel. Need to have chat log enabled under game options. Run this after the game is launched.
 
-
-Set ENV variables:  
+Edit configuration:  
 
 **chatlogs_dir** - The directory that contains the game's chatlogs <br>
 **discord_token** - your discord bot token(https://discord.com/developers/applications) <br> 
