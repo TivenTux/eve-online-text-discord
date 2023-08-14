@@ -5,7 +5,9 @@ Forwards chat messages from the game, on a discord channel. Need to have chat lo
 
 Set ENV variables:  
 
-**chatlogs_dir** - The directory that contains chatlogs
-**discord_token** - your discord bot token(https://discord.com/developers/applications)  
-**notifications_chan_id** - Discord channel ID to forward the chat to
-**chankeyword** - Name of the eve channel (example: for local chat u would use 'Local')  
+**chatlogs_dir** - The directory that contains the game's chatlogs <br>
+**discord_token** - your discord bot token(https://discord.com/developers/applications) <br> 
+**notifications_chan_id** - Discord channel ID to forward the chat to <br>
+**chankeyword** - Name of the eve channel (example: for local chat u would use 'Local') <br> 
+
+
