@@ -4,14 +4,19 @@ import glob
 import discord
 
 #directory that contains chatlogs. default is for linux/proton version
-#efault_linux_dir = '/home/user/.steam/steam/steamapps/compatdata/8500/pfx/drive_c/users/steamuser/My Documents/EVE/logs/Chatlogs/'
-chatlogs_dir = os.environ['chatlogs_dir']
+default_linux_dir = '/home/user/.steam/steam/steamapps/compatdata/8500/pfx/drive_c/users/steamuser/My Documents/EVE/logs/Chatlogs/'
+#chatlogs_dir = os.environ['chatlogs_dir']
+#change this to reflect the location of your chatlogs
+chatlogs_dir = default_linux_dir
 #discord token - check here: https://discord.com/developers/applications
+#discord_token = os.environ['discord_token']
 discord_token = os.environ['discord_token']
 #Channel id to forward chat to. On discord, right click channel, Copy ID.
-notifications_chan_id = os.environ['notifications_chan_id']
+#notifications_chan_id = os.environ['notifications_chan_id']
+notifications_chan_id = 9999999999999999
 #name of the EVE Online channel. Default is local system chat.
-chankeyword = os.environ['chankeyword']
+#chankeyword = os.environ['chankeyword']
+chankeyword = 'Local'
 
 #initiate discord vars
 client = discord.Client()
